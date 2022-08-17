@@ -15,6 +15,8 @@ function App() {
           <Route path="/" element={<Counter />}></Route>
           <Route path="/effect" element={<UseEffect />}></Route>
           <Route path="/memo" element={<UseMemo />}></Route>
+          {/* <Route path="/memo" element={<UseMemo />}></Route> */}
+          {/* <Route path="/memo" element={<UseMemo />}></Route> */}
         </Routes>
       </Container>
     </Fragment>
