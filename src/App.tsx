@@ -5,6 +5,7 @@ import NavigationBar from "./components/NavigationBar";
 import Counter from "./pages/Counter";
 import UseEffect from "./pages/UseEffect";
 import UseMemo from "./pages/UseMemo";
+import UseRef from "./pages/UseRef";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route path="/" element={<Counter />}></Route>
           <Route path="/effect" element={<UseEffect />}></Route>
           <Route path="/memo" element={<UseMemo />}></Route>
-          {/* <Route path="/memo" element={<UseMemo />}></Route> */}
+          <Route path="/ref" element={<UseRef />}></Route>
           {/* <Route path="/memo" element={<UseMemo />}></Route> */}
         </Routes>
       </Container>

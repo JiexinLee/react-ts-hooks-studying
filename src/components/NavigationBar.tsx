@@ -18,6 +18,9 @@ function NavigationBar() {
         <Nav.Link to="/memo" as={NavLink}>
           UseMemo
         </Nav.Link>
+        <Nav.Link to="/ref" as={NavLink}>
+          UseRef
+        </Nav.Link>
       </Nav>
     </Navbar>
   );
