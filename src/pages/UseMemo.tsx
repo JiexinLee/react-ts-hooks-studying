@@ -53,7 +53,7 @@ function UseMemo() {
 // for mocking a slow function
 function slowFunction(num: number): number {
   console.log("calling slow function ... ");
-  for (let i = 0; i < 1000000000; i++) {}
+  for (let i = 0; i < 1000000; i++) {}
   return num * 2;
 }
 export default UseMemo;
