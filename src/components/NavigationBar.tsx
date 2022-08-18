@@ -21,6 +21,9 @@ function NavigationBar() {
         <Nav.Link to="/ref" as={NavLink}>
           UseRef
         </Nav.Link>
+        <Nav.Link to="/css" as={NavLink}>
+          CSS
+        </Nav.Link>
       </Nav>
     </Navbar>
   );

@@ -6,6 +6,7 @@ import Counter from "./pages/Counter";
 import UseEffect from "./pages/UseEffect";
 import UseMemo from "./pages/UseMemo";
 import UseRef from "./pages/UseRef";
+import CSSPractice from "./pages/CSSPractice";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Route path="/effect" element={<UseEffect />}></Route>
           <Route path="/memo" element={<UseMemo />}></Route>
           <Route path="/ref" element={<UseRef />}></Route>
-          {/* <Route path="/memo" element={<UseMemo />}></Route> */}
+          <Route path="/css" element={<CSSPractice />}></Route>
         </Routes>
       </Container>
     </Fragment>
